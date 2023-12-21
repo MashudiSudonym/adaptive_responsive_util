@@ -1,0 +1,21 @@
+name: adaptive_responsive_util
+description: A package for auto detect adaptive or responsive your pages.
+version: 1.0.0
+homepage: https://github.com/MashudiSudonym/adaptive_responsive_util
+repository: https://github.com/MashudiSudonym/adaptive_responsive_util
+issue_tracker: https://github.com/MashudiSudonym/adaptive_responsive_util/issues
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
