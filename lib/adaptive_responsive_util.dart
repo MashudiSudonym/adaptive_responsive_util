@@ -6,3 +6,6 @@ export 'src/responsive_portrait_screen.dart';
 export 'src/utils/extension_on_build_context.dart';
 export 'src/utils/extension_on_string.dart';
 export 'src/utils/extension_on_widget.dart';
+export 'src/utils/extension_date_time.dart';
+export 'src/utils/extension_file_manipulation.dart';
+export 'src/utils/extension_on_num.dart';
