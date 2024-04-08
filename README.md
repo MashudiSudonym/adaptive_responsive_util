@@ -5,15 +5,18 @@ This package was inspired by this video [https://www.youtube.com/watch?v=MrPJBAO
 Makes it easier to manage the types of screens that will be used, use "AdaptiveScreen" if you want to create a special screen based on the type of platform such as website, Android, iOS, Mac, Windows. or use "ResponsiveLandscapeScreen" or "ResponsivePortraitScreen" if you want to get even better screen responsiveness.
 
 ## Utils Content
+
+Utils Content is another package from adaptive / responsive, containing additional code to help make the coding process faster.
+
+Inspired from this article https://blog.stackademic.com/flutter-extensions-tricks-to-boost-your-productivity-88573b7efc0f
+
 ### Extension on BuildContent
 
 This extension is used for several parts such as themes, media queries, displaying static UI such as snackbar and alert dialog, and a simple version for customizing widgets based on screen orientation.
 
-Inspired from this article https://blog.stackademic.com/flutter-extensions-tricks-to-boost-your-productivity-88573b7efc0f
-
 #### List Simplify Theme Access
 
-```
+``` dart
   primaryColor => Theme.of(this).primaryColor;
   canvasColor => Theme.of(this).canvasColor;
   cardColor => Theme.of(this).cardColor;
@@ -34,7 +37,7 @@ example : ```context.primaryColor```
 
 #### List Simplify MediaQuery Access
 
-```
+``` dart
   width => MediaQuery.of(this).size.width;
   height => MediaQuery.of(this).size.height;
   aspectRatio => MediaQuery.of(this).size.aspectRatio;
@@ -53,7 +56,7 @@ example : ```context.snackBar('example');```
 #### Display Alert Dialog
 
 example :
-```dart
+``` dart
 context.displayAlertDialog(
     title: 'title',
     content: 'content',
@@ -67,7 +70,7 @@ context.displayAlertDialog(
 #### Build Widget Based on Orientation
 
 example :
-```dart
+``` dart
 import 'package:flutter/material.dart';
 import 'extension_on_build_context.dart';
 
