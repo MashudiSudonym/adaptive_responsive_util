@@ -1,6 +1,6 @@
 name: adaptive_responsive_util
-description: A package for auto detect adaptive or responsive your pages.
-version: 1.0.0
+description: A package for auto detect adaptive or responsive your pages. and more useful extension for utilities.
+version: 1.0.1
 homepage: https://github.com/MashudiSudonym/adaptive_responsive_util
 repository: https://github.com/MashudiSudonym/adaptive_responsive_util
 issue_tracker: https://github.com/MashudiSudonym/adaptive_responsive_util/issues
