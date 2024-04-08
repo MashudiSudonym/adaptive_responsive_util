@@ -6,7 +6,7 @@ repository: https://github.com/MashudiSudonym/adaptive_responsive_util
 issue_tracker: https://github.com/MashudiSudonym/adaptive_responsive_util/issues
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
+  sdk: '>=3.3.1 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
