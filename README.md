@@ -1,6 +1,15 @@
-# Adaptive & Responsive Util 
+[![pub package](https://img.shields.io/pub/v/adaptive_responsive_util.svg)](https://pub.dartlang.org/packages/adaptive_responsive_util)
+[![Score](https://img.shields.io/pub/points/adaptive_responsive_util?label=Score&logo=dart)](https://pub.dartlang.org/packages/adaptive_responsive_util/score)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Web%20|%20macOS%20|%20Windows%20|%20Linux%20-blue.svg?logo=flutter)](https://pub.dartlang.org/packages/adaptive_responsive_util)
+![GitHub stars](https://img.shields.io/github/stars/MashudiSudonym/adaptive_responsive_util)
+![GitHub forks](https://img.shields.io/github/forks/MashudiSudonym/adaptive_responsive_util)
+![GitHub issues](https://img.shields.io/github/issues/MashudiSudonym/adaptive_responsive_util)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/MashudiSudonym/adaptive_responsive_util)
 
-This package was inspired by this video [https://www.youtube.com/watch?v=MrPJBAOzKTQ&t=262s](this%20package%20was%20inspired%20by%20this%20video%20https://www.youtube.com/watch?v=MrPJBAOzKTQ&t=262s) 
+# Adaptive & Responsive Util
+
+This package was inspired by this video https://www.youtube.com/watch?v=MrPJBAOzKTQ&t=262s
 
 Makes it easier to manage the types of screens that will be used, use "AdaptiveScreen" if you want to create a special screen based on the type of platform such as website, Android, iOS, Mac, Windows. or use "ResponsiveLandscapeScreen" or "ResponsivePortraitScreen" if you want to get even better screen responsiveness.
 
