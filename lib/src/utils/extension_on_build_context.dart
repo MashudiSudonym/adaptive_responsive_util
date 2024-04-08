@@ -49,7 +49,7 @@ extension ContextExt on BuildContext {
     showDialog(
       context: this,
       builder: (BuildContext context) {
-        return AlertDialog(
+        return AlertDialog.adaptive(
           title: Text(title),
           content: Text(content),
           actions: <Widget>[
