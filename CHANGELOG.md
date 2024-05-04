@@ -17,3 +17,7 @@
 
 * add logger util
 * add util for check flavor of project flutter
+ 
+## 1.0.3
+
+* fix minor bug
