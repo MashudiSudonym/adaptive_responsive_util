@@ -17,7 +17,11 @@
 
 * add logger util
 * add util for check flavor of project flutter
- 
+
 ## 1.0.3
 
 * fix minor bug
+
+## 1.0.4
+
+* change ```MediaQuery.of(context)``` to ```MediaQuery.sizeOf(context)``` according to recommendations from the flutter documentation and the Adaptive UI demo at Google I/O 2024.

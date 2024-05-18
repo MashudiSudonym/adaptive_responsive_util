@@ -18,11 +18,12 @@ extension ContextExt on BuildContext {
   Color get shadowColor => Theme.of(this).shadowColor;
 
   // Simplify Accessing MediaQuery
-  double get width => MediaQuery.of(this).size.width;
-  double get height => MediaQuery.of(this).size.height;
-  double get aspectRatio => MediaQuery.of(this).size.aspectRatio;
-  double get longestSide => MediaQuery.of(this).size.longestSide;
-  double get shortestSide => MediaQuery.of(this).size.shortestSide;
+  Size get windowSize => MediaQuery.sizeOf(this);
+  double get width => MediaQuery.sizeOf(this).width;
+  double get height => MediaQuery.sizeOf(this).height;
+  double get aspectRatio => MediaQuery.sizeOf(this).aspectRatio;
+  double get longestSide => MediaQuery.sizeOf(this).longestSide;
+  double get shortestSide => MediaQuery.sizeOf(this).shortestSide;
   Orientation get orientation => MediaQuery.of(this).orientation;
   EdgeInsets get padding => MediaQuery.of(this).padding;
 
