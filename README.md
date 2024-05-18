@@ -13,6 +13,20 @@ This package was inspired by this video https://www.youtube.com/watch?v=MrPJBAOz
 
 Makes it easier to manage the types of screens that will be used, use "AdaptiveScreen" if you want to create a special screen based on the type of platform such as website, Android, iOS, Mac, Windows. or use "ResponsiveLandscapeScreen" or "ResponsivePortraitScreen" if you want to get even better screen responsiveness.
 
+### Adaptive or/and Responsive widget
+
+#### AdaptiveScreen Widget
+  - Use this widget if you are going to build pages or specific widgets according to the type of platform 
+
+#### OrientationScreen Widget
+  - Use this widget if you are going to build pages or specific widgets according to the type of page orientation
+
+#### ResponsivePortraitScreen Widget
+  - Use this widget if you want to form groups/branches for your layout or widget display to suit the screen size conditions when in portrait position. (make sure to also set the same for the landscape position with ResponsiveLandscapeScreen Widget)
+
+#### ResponsiveLandscapeScreen Widget
+  - Use this widget if you want to form groups/branches for your layout or widget display to suit the screen size conditions when in landscape position. (make sure to also set the same for the portrait position with ResponsivePortraitScreen Widget)
+
 ## Utils Content
 
 Utils Content is another package from adaptive / responsive, containing additional code to help make the coding process faster.

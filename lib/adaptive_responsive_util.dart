@@ -10,3 +10,4 @@ export 'src/utils/extension_on_build_context.dart';
 export 'src/utils/extension_on_num.dart';
 export 'src/utils/extension_on_string.dart';
 export 'src/utils/extension_on_widget.dart';
+export 'src/utils/misc.dart';

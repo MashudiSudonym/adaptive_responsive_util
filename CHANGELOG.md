@@ -24,4 +24,10 @@
 
 ## 1.0.4
 
-* change ```MediaQuery.of(context)``` to ```MediaQuery.sizeOf(context)``` according to recommendations from the flutter documentation and the Adaptive UI demo at Google I/O 2024.
+* change ```MediaQuery.of(context)``` to ```MediaQuery.sizeOf(context)``` according to recommendations from the flutter documentation and the Adaptive UI demo at Google I/O 2024
+
+## 1.0.5
+
+* remove util Build Widget Based on Orientation, media query orientation and padding
+* add util for spacing vertical and horizontal
+* update README.md file

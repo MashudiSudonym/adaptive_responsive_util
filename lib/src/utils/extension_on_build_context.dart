@@ -24,8 +24,6 @@ extension ContextExt on BuildContext {
   double get aspectRatio => MediaQuery.sizeOf(this).aspectRatio;
   double get longestSide => MediaQuery.sizeOf(this).longestSide;
   double get shortestSide => MediaQuery.sizeOf(this).shortestSide;
-  Orientation get orientation => MediaQuery.of(this).orientation;
-  EdgeInsets get padding => MediaQuery.of(this).padding;
 
   // Display SnackBar
   void showSnackBar(String message) {
@@ -72,16 +70,5 @@ extension ContextExt on BuildContext {
         );
       },
     );
-  }
-
-  // Build Widget Based on Orientation
-  T orientationAction<T>({
-    required T Function() onPortrait,
-    required T Function() onLandscape,
-  }) {
-    if (MediaQuery.of(this).orientation == Orientation.landscape) {
-      return onLandscape();
-    }
-    return onPortrait();
   }
 }
